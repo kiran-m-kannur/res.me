@@ -1,0 +1,32 @@
+.drop-area {
+  border: 2px dashed #d1d5db;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.drop-area:hover {
+  border-color: #3b82f6;
+}
+
+.upload-button {
+  margin-top: 1.5rem;
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.upload-button:hover:enabled {
+  background-color: #1d4ed8;
+}
+
+.upload-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
